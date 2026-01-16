@@ -112,14 +112,24 @@ async function fetchPage(url) {
       'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
       'Accept-Language': 'nl-NL,nl;q=0.9,en;q=0.8',
+      'Cache-Control': 'no-cache',
     },
   });
+
+  console.log(`Response status: ${response.status}`);
+  console.log(`Response headers:`, Object.fromEntries(response.headers.entries()));
 
   if (!response.ok) {
     throw new Error(`Failed to fetch ${url}: ${response.status}`);
   }
 
-  return response.text();
+  const text = await response.text();
+  console.log(`Page length: ${text.length} characters`);
+  console.log(`Contains product-: ${text.includes('product-')}`);
+  console.log(`Contains card_title: ${text.includes('card_title')}`);
+  console.log(`First 500 chars: ${text.substring(0, 500)}`);
+
+  return text;
 }
 
 async function scrapeStore(storeName) {
