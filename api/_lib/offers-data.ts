@@ -12,7 +12,7 @@ export async function getOffersFromData(): Promise<Offer[]> {
     // Fetch the offers.json from the raw GitHub URL
     const response = await fetch(
       'https://raw.githubusercontent.com/samdijkstra9-arch/discount/main/data/offers.json',
-      { next: { revalidate: 3600 } } // Cache for 1 hour
+      { cache: 'no-store' } // Always fetch fresh data
     );
 
     if (!response.ok) {
