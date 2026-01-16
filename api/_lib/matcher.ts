@@ -1,4 +1,4 @@
-import type { Offer } from './scraper';
+import type { Offer } from './prices-data';
 import type { Recipe, RecipeIngredient } from './recipes';
 
 const PANTRY_STAPLES = [
@@ -109,11 +109,14 @@ export function matchRecipeToOffers(recipe: Recipe, offers: Offer[]): RecipeMatc
     if (matchingOffers.length > 0) {
       totalMatchingIngredients++;
 
-      const bestOffer = matchingOffers.reduce((best, current) =>
-        current.discountPercentage > best.discountPercentage ? current : best
-      );
+      // Find offer with highest discount
+      const bestOffer = matchingOffers.reduce((best, current) => {
+        const bestDiscount = parseInt(best.discount.replace('%', '')) || 0;
+        const currentDiscount = parseInt(current.discount.replace('%', '')) || 0;
+        return currentDiscount > bestDiscount ? current : best;
+      });
 
-      const savings = bestOffer.originalPrice - bestOffer.offerPrice;
+      const savings = bestOffer.originalPrice - bestOffer.salePrice;
       estimatedSavings += savings;
 
       ingredientMatches.push({
@@ -142,7 +145,7 @@ export function matchRecipeToOffers(recipe: Recipe, offers: Offer[]): RecipeMatc
   let estimatedCost = 0;
   for (const match of ingredientMatches) {
     if (match.bestOffer) {
-      estimatedCost += match.bestOffer.offerPrice;
+      estimatedCost += match.bestOffer.salePrice;
     } else if (!match.ingredient.isPantryStaple) {
       estimatedCost += 2.50;
     }

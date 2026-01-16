@@ -1,6 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import type { Offer } from '../_lib/scraper';
-import { getOffersFromData } from '../_lib/offers-data';
+import { getOffersFromData, type Offer } from '../_lib/prices-data';
 
 // Simple in-memory cache with TTL
 let cachedOffers: Offer[] = [];

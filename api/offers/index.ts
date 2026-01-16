@@ -1,6 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import type { Offer } from '../_lib/scraper';
-import { getOffersFromData } from '../_lib/offers-data';
+import { getOffersFromData, type Offer } from '../_lib/prices-data';
 
 // Simple in-memory cache with TTL
 let cachedOffers: Offer[] = [];
@@ -65,7 +64,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     // Sort by discount percentage by default
-    filteredOffers.sort((a, b) => b.discountPercentage - a.discountPercentage);
+    filteredOffers.sort((a, b) => {
+      const discountA = parseInt(a.discount.replace('%', '')) || 0;
+      const discountB = parseInt(b.discount.replace('%', '')) || 0;
+      return discountB - discountA;
+    });
 
     return res.status(200).json({
       success: true,
