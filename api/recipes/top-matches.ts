@@ -1,5 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { scrapeAllOffers, type Offer } from '../_lib/scraper';
+import type { Offer } from '../_lib/scraper';
+import { getOffersFromData } from '../_lib/offers-data';
 import { getAllRecipes } from '../_lib/recipes';
 import { findTopMatchingRecipes } from '../_lib/matcher';
 
@@ -16,15 +17,15 @@ async function getOffers(): Promise<Offer[]> {
   }
 
   try {
-    cachedOffers = await scrapeAllOffers();
+    cachedOffers = await getOffersFromData();
     cacheTimestamp = now;
     return cachedOffers;
   } catch (error) {
-    console.error('Failed to scrape offers:', error);
+    console.error('Failed to get offers:', error);
     if (cachedOffers.length > 0) {
       return cachedOffers;
     }
-    throw error;
+    return [];
   }
 }
 

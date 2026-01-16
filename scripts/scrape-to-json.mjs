@@ -16,44 +16,88 @@ function generateOfferId(store, productName, validFrom) {
   return `${store}-${hash}`;
 }
 
+// Food categories that we want to include
+const FOOD_CATEGORIES = [
+  'vlees', 'vis', 'zuivel', 'groenten', 'fruit', 'brood',
+  'pasta-rijst', 'conserven', 'diepvries-eten', 'sauzen', 'kruiden'
+];
+
+// Non-food keywords to exclude
+const NON_FOOD_KEYWORDS = [
+  // Cleaning products
+  'wasmiddel', 'afwasmiddel', 'schoonmaak', 'allesreiniger', 'bleek', 'ontstopper',
+  'toiletblok', 'glansspoelmiddel', 'wasverzachter', 'vlekverwijderaar', 'glasreiniger',
+  'vloeibaar wasmiddel', 'pods', 'capsules wassen', 'dreft', 'robijn', 'ariel', 'persil',
+  'vanish', 'glorix', 'wc-eend', 'toiletpapier', 'keukenpapier', 'keukenrol',
+  // Personal care
+  'shampoo', 'conditioner', 'douchegel', 'zeep', 'deodorant', 'tandpasta', 'mondwater',
+  'scheermesje', 'scheerschuim', 'bodylotion', 'handcreme', 'gezichtscreme', 'sunblock',
+  'zonnebrand', 'lipbalm', 'mascara', 'foundation', 'make-up', 'nagellak', 'parfum',
+  'haargel', 'haarspray', 'tampons', 'maandverband', 'luiers', 'billendoekjes',
+  // Pet products
+  'hondenvoer', 'kattenvoer', 'kattenbak', 'diervoeding', 'hondenbrokken', 'kattenbrokjes',
+  // Household items
+  'batterij', 'batterijen', 'lamp', 'gloeilamp', 'led', 'vuilniszak', 'pedaalemmerzak',
+  'aluminiumfolie', 'bakpapier', 'vershoudfolie', 'ziplock',
+  // Non-food pharmacy
+  'paracetamol', 'ibuprofen', 'vitamine', 'supplement', 'pijnstiller'
+];
+
+function isNonFood(productName) {
+  const name = productName.toLowerCase();
+  return NON_FOOD_KEYWORDS.some(keyword => name.includes(keyword));
+}
+
 function categorizeProduct(productName) {
   const name = productName.toLowerCase();
 
-  if (/kip|kipfilet|kipdrumstick|gehakt|rundergehakt|varken|spek|bacon|worst|hamburger|steak|biefstuk|kalkoen|eend|lam|schnitzel|slavink|frikandel|kroket/.test(name)) {
+  // Meat
+  if (/kip|kipfilet|kipdrumstick|kippenbouten|kippendijtjes|gehakt|rundergehakt|varken|varkenshaas|spek|bacon|worst|rookworst|braadworst|hamburger|steak|biefstuk|kalkoen|eend|lam|schnitzel|slavink|frikandel|kroket|gyros|shoarma|ossenworst|lever|entrecote|rib-eye|spare|ribs|pulled|pork|beef/.test(name)) {
     return 'vlees';
   }
-  if (/vis|zalm|tonijn|kabeljauw|garnaal|mosselen|haring|makreel|tilapia|pangasius|kibbeling|lekkerbekje/.test(name)) {
+  // Fish
+  if (/vis|zalm|tonijn|kabeljauw|garnaal|garnalen|mosselen|haring|makreel|tilapia|pangasius|kibbeling|lekkerbekje|krab|kreeft|scampi|forel|schol|tong|zeebaars|dorade|ansjovis|sardine|visfilet|visstick/.test(name)) {
     return 'vis';
   }
-  if (/melk|kaas|yoghurt|kwark|boter|room|ei|eieren|zuivel|margarine|vla|pudding|toetje/.test(name)) {
+  // Dairy
+  if (/melk|kaas|yoghurt|kwark|boter|room|slagroom|ei\b|eieren|zuivel|margarine|vla|pudding|toetje|cottage|ricotta|mozzarella|parmezan|goudse|edammer|brie|camembert|feta|creme fraiche|mascarpone|skyr/.test(name)) {
     return 'zuivel';
   }
-  if (/tomaat|tomaten|sla|komkommer|paprika|wortel|ui|aardappel|broccoli|bloemkool|spinazie|champignon|courgette|aubergine|groente|prei|kool|biet|radijs|sperzieboon/.test(name)) {
+  // Vegetables
+  if (/tomaat|tomaten|sla|komkommer|paprika|wortel|wortelen|ui\b|uien|aardappel|aardappelen|broccoli|bloemkool|spinazie|champignon|champignons|courgette|aubergine|groente|groenten|prei|kool|boerenkool|andijvie|biet|bieten|radijs|sperzieboon|sperziebonen|snijboon|snijbonen|peultjes|erwten|doperwten|asperge|asperges|venkel|knolselderij|bleekselderij|pastinaak|knol|rapen|pompoen|butternut|zoete aardappel|witlof|rucola|veldsla|ijsbergsla|romeinse sla|spitskool|savooiekool|spruitjes|avocado/.test(name)) {
     return 'groenten';
   }
-  if (/appel|banaan|sinaasappel|druif|aardbei|peer|mango|ananas|citroen|limoen|fruit|bes|kiwi|meloen|perzik|pruim|framboos|bosbes/.test(name)) {
+  // Fruit
+  if (/appel|appels|banaan|bananen|sinaasappel|sinaasappels|druif|druiven|aardbei|aardbeien|peer|peren|mango|ananas|citroen|limoen|fruit|bes|bessen|kiwi|meloen|watermeloen|perzik|pruim|framboos|frambozen|bosbes|bosbessen|bramen|kersen|abrikoos|abrikozen|nectarine|granaatappel|passievrucht|lychee|papaya|kokos|grapefruit|mandarijn|clementine/.test(name)) {
     return 'fruit';
   }
-  if (/brood|stokbrood|croissant|pistolet|bolletje|beschuit|cracker|toast|baguette/.test(name)) {
+  // Bread & bakery
+  if (/brood|stokbrood|croissant|pistolet|bolletje|beschuit|cracker|toast|baguette|ciabatta|focaccia|pita|wrap|tortilla|naan|volkoren|meergranen|rogge|spelt|bagel/.test(name)) {
     return 'brood';
   }
-  if (/pasta|spaghetti|penne|macaroni|rijst|noodle|couscous|bulgur|quinoa|lasagne/.test(name)) {
+  // Pasta, rice, grains
+  if (/pasta|spaghetti|penne|macaroni|fusilli|tagliatelle|farfalle|rigatoni|rijst|basmati|jasmine|risotto|noodle|noodles|mie|bami|couscous|bulgur|quinoa|lasagne|ravioli|tortellini|gnocchi|polenta/.test(name)) {
     return 'pasta-rijst';
   }
-  if (/blik|gedroogd|gepeld|tomatenblokjes|passata|kikkererwt|bonen|linzen|mais|ingelegd/.test(name)) {
+  // Canned & dried goods
+  if (/blik|gedroogd|gepeld|tomatenblokjes|passata|tomatenpuree|kikkererwt|kikkererwten|bonen|kidneybonen|witte bonen|bruine bonen|zwarte bonen|linzen|mais|ingelegd|augurk|kappertjes|olijven|zongedroogd|peulvrucht|chili con carne/.test(name)) {
     return 'conserven';
   }
-  if (/diepvries|bevroren|ijs|pizza|ijsje/.test(name)) {
-    return 'diepvries';
+  // Frozen food (only food items)
+  if (/diepvries|bevroren|pizza|ijsje|ijs\b|magnum|cornetto|ben & jerry|diepvriespizza|diepvriesgroente|friet|patat|kroketten|bitterballen|loempia|spring roll|fish fingers|visstick/.test(name)) {
+    return 'diepvries-eten';
   }
-  if (/cola|fanta|sprite|sinas|limonade|sap|water|bier|wijn|koffie|thee|energy|frisdrank|pils/.test(name)) {
-    return 'dranken';
-  }
-  if (/saus|ketchup|mayonaise|mayo|mosterd|pesto|dressing|curry|sambal/.test(name)) {
+  // Sauces & condiments
+  if (/saus|ketchup|mayonaise|mayo|mosterd|pesto|dressing|curry|currysaus|sambal|sojasaus|ketjap|hoisin|sriracha|tabasco|barbecuesaus|bbq|vinaigrette|hummus|tzatziki|guacamole/.test(name)) {
     return 'sauzen';
   }
-  if (/chips|nootjes|koek|chocola|snoep|drop|popcorn/.test(name)) {
-    return 'snacks';
+  // Herbs & spices
+  if (/kruiden|kruid|basilicum|oregano|tijm|rozemarijn|peterselie|bieslook|dille|munt|koriander|kerrie|paprikapoeder|komijn|kaneel|nootmuskaat|kurkuma|gember|knoflook|laurier|cayenne|chilipoeder|kruidenmix/.test(name)) {
+    return 'kruiden';
+  }
+  // Oils & cooking fats
+  if (/olie|olijfolie|zonnebloemolie|kokosolie|arachideolie|sesamolie|frituurvet|bak en braad/.test(name)) {
+    return 'olie';
   }
 
   return 'overig';
@@ -195,8 +239,17 @@ async function scrapeStore(storeName) {
       }
     });
 
+    // Filter out non-food items and 'overig' category
+    const foodOffers = offers.filter(offer => {
+      // Exclude non-food items by keywords
+      if (isNonFood(offer.productName)) return false;
+      // Exclude 'overig' category (uncategorized items are often non-food)
+      if (offer.category === 'overig') return false;
+      return true;
+    });
+
     const seen = new Set();
-    const uniqueOffers = offers.filter(offer => {
+    const uniqueOffers = foodOffers.filter(offer => {
       const key = offer.productName.toLowerCase();
       if (seen.has(key)) return false;
       seen.add(key);
