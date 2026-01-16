@@ -1,6 +1,8 @@
 import type { Offer } from './scraper';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
-// This will be populated at build time or read from the JSON file
+// Cache the loaded data
 let offersData: { lastUpdated: string; totalOffers: number; offers: Offer[] } | null = null;
 
 export async function getOffersFromData(): Promise<Offer[]> {
@@ -9,18 +11,10 @@ export async function getOffersFromData(): Promise<Offer[]> {
   }
 
   try {
-    // Fetch the offers.json from the raw GitHub URL
-    const response = await fetch(
-      'https://raw.githubusercontent.com/samdijkstra9-arch/discount/main/data/offers.json',
-      { cache: 'no-store' } // Always fetch fresh data
-    );
-
-    if (!response.ok) {
-      console.error('Failed to fetch offers data:', response.status);
-      return [];
-    }
-
-    offersData = await response.json();
+    // Read the offers.json file directly from the data directory
+    const filePath = join(process.cwd(), 'data', 'offers.json');
+    const fileContent = readFileSync(filePath, 'utf-8');
+    offersData = JSON.parse(fileContent);
     return offersData?.offers || [];
   } catch (error) {
     console.error('Error loading offers data:', error);
