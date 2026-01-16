@@ -1,5 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { scrapeAllOffers, type Offer } from '../_lib/scraper';
+import type { Offer } from '../_lib/scraper';
+import { getOffersFromData } from '../_lib/offers-data';
 
 // Simple in-memory cache with TTL
 let cachedOffers: Offer[] = [];
@@ -14,15 +15,15 @@ async function getOffers(): Promise<Offer[]> {
   }
 
   try {
-    cachedOffers = await scrapeAllOffers();
+    cachedOffers = await getOffersFromData();
     cacheTimestamp = now;
     return cachedOffers;
   } catch (error) {
-    console.error('Failed to scrape offers:', error);
+    console.error('Failed to get offers:', error);
     if (cachedOffers.length > 0) {
       return cachedOffers;
     }
-    throw error;
+    return [];
   }
 }
 
