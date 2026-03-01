@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-28T06:33:36.602Z",
+  "lastUpdated": "2026-03-01T06:41:44.794Z",
   "source": "lijssie.nl",
   "description": "Prijzen inclusief aanbiedingen van alle Nederlandse supermarkten",
   "totalIngredients": 40,
@@ -1437,1426 +1437,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-02-17",
-      "prices": [
-        {
-          "ingredientName": "gehakt",
-          "category": "vlees",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/gehakt-500g",
-          "prices": {
-            "albert-heijn": {
-              "regular": 4.17,
-              "lowest": 2.49,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 4.63,
-              "lowest": 3.49,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 4.5,
-              "lowest": 2.2,
-              "hasOffer": true
-            },
-            "dirk": {
-              "regular": 4.3,
-              "lowest": 0.42,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 4.36,
-              "lowest": 1.69,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 3.77,
-              "lowest": 0.49,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 3.9,
-              "lowest": 2.35,
-              "hasOffer": true
-            },
-            "spar": {
-              "regular": 3.77,
-              "lowest": 3.77,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "kipfilet",
-          "category": "vlees",
-          "unit": "300g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/kipfilet-300-gram",
-          "prices": {
-            "albert-heijn": {
-              "regular": 3.66,
-              "lowest": 2.69,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 4.42,
-              "lowest": 3.85,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 4.52,
-              "lowest": 4.45,
-              "hasOffer": false
-            },
-            "dirk": {
-              "regular": 3.11,
-              "lowest": 2.19,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 5.29,
-              "lowest": 2.69,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 2.75,
-              "lowest": 2.55,
-              "hasOffer": true
-            },
-            "vomar": {
-              "regular": 3.81,
-              "lowest": 3.15,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 2.36,
-              "lowest": 2.36,
-              "hasOffer": false
-            },
-            "spar": {
-              "regular": 2.36,
-              "lowest": 2.36,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "kippenpoot",
-          "category": "vlees",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/kippenpoot-500g",
-          "prices": {
-            "albert-heijn": {
-              "regular": 3.65,
-              "lowest": 3.65,
-              "hasOffer": false
-            },
-            "jumbo": {
-              "regular": 4.22,
-              "lowest": 4.22,
-              "hasOffer": false
-            },
-            "dirk": {
-              "regular": 4.19,
-              "lowest": 4.19,
-              "hasOffer": false
-            },
-            "dekamarkt": {
-              "regular": 3.48,
-              "lowest": 3.48,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 3.1,
-              "lowest": 3.1,
-              "hasOffer": false
-            },
-            "spar": {
-              "regular": 3.1,
-              "lowest": 3.1,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "zalm",
-          "category": "vlees",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/zalm-filet",
-          "prices": {
-            "plus": {
-              "regular": 3.79,
-              "lowest": 3.79,
-              "hasOffer": false
-            },
-            "dirk": {
-              "regular": 3.99,
-              "lowest": 3.99,
-              "hasOffer": false
-            },
-            "coop": {
-              "regular": 4.29,
-              "lowest": 4.29,
-              "hasOffer": false
-            },
-            "dekamarkt": {
-              "regular": 4.14,
-              "lowest": 4.14,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 3.99,
-              "lowest": 3.99,
-              "hasOffer": false
-            },
-            "spar": {
-              "regular": 3.79,
-              "lowest": 3.79,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "spekblokjes",
-          "category": "vlees",
-          "unit": "150g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/spekblokjes",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "ham",
-          "category": "vlees",
-          "unit": "100g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/ham-gesneden",
-          "prices": {
-            "albert-heijn": {
-              "regular": 2.54,
-              "lowest": 2.54,
-              "hasOffer": false
-            },
-            "jumbo": {
-              "regular": 5.24,
-              "lowest": 5.24,
-              "hasOffer": false
-            },
-            "spar": {
-              "regular": 2.54,
-              "lowest": 2.54,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "salami",
-          "category": "vlees",
-          "unit": "80g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/salami",
-          "prices": {
-            "albert-heijn": {
-              "regular": 2.47,
-              "lowest": 1.49,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 2.34,
-              "lowest": 1.97,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 2.32,
-              "lowest": 1.69,
-              "hasOffer": true
-            },
-            "dirk": {
-              "regular": 2.59,
-              "lowest": 1.25,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 2.89,
-              "lowest": 1.69,
-              "hasOffer": true
-            },
-            "vomar": {
-              "regular": 2.49,
-              "lowest": 1.98,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 2.57,
-              "lowest": 1.79,
-              "hasOffer": true
-            },
-            "spar": {
-              "regular": 2.32,
-              "lowest": 2.32,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "paprika",
-          "category": "groenten",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/puntpaprika",
-          "prices": {
-            "albert-heijn": {
-              "regular": 2.41,
-              "lowest": 1.69,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 2.84,
-              "lowest": 1.79,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 1.49,
-              "lowest": 1.49,
-              "hasOffer": false
-            },
-            "plus": {
-              "regular": 3.39,
-              "lowest": 3.39,
-              "hasOffer": false
-            },
-            "dirk": {
-              "regular": 1.92,
-              "lowest": 0.7,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 1.84,
-              "lowest": 1.69,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 2.84,
-              "lowest": 2.49,
-              "hasOffer": true
-            },
-            "vomar": {
-              "regular": 2.27,
-              "lowest": 1.65,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 1.69,
-              "lowest": 1.69,
-              "hasOffer": false
-            },
-            "spar": {
-              "regular": 1.49,
-              "lowest": 1.49,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "tomaten",
-          "category": "groenten",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/tomaten",
-          "prices": {
-            "albert-heijn": {
-              "regular": 1.25,
-              "lowest": 0.49,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 1.64,
-              "lowest": 0.59,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 1.02,
-              "lowest": 0.35,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 1.23,
-              "lowest": 0.49,
-              "hasOffer": true
-            },
-            "dirk": {
-              "regular": 1.21,
-              "lowest": 0.3,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 1.64,
-              "lowest": 0.59,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 1.67,
-              "lowest": 0.35,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 1.52,
-              "lowest": 0.3,
-              "hasOffer": true
-            },
-            "spar": {
-              "regular": 1.02,
-              "lowest": 1.02,
-              "hasOffer": false
-            },
-            "poiesz": {
-              "regular": 1.08,
-              "lowest": 0.9,
-              "hasOffer": true
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "komkommer",
-          "category": "groenten",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/komkommer",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "sla",
-          "category": "groenten",
-          "unit": "krop",
-          "lijssieUrl": "https://www.lijssie.nl/blog/ijsbergsla",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "champignons",
-          "category": "groenten",
-          "unit": "250g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/champignons",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "uien",
-          "category": "groenten",
-          "unit": "kg",
-          "lijssieUrl": "https://www.lijssie.nl/blog/uien",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "aardappelen",
-          "category": "groenten",
-          "unit": "kg",
-          "lijssieUrl": "https://www.lijssie.nl/blog/aardappelen",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "wortelen",
-          "category": "groenten",
-          "unit": "kg",
-          "lijssieUrl": "https://www.lijssie.nl/blog/wortelen",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "broccoli",
-          "category": "groenten",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/broccoli",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "spinazie",
-          "category": "groenten",
-          "unit": "300g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/spinazie",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "avocado",
-          "category": "groenten",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/avocado-eetrijp",
-          "prices": {
-            "albert-heijn": {
-              "regular": 2.89,
-              "lowest": 1.99,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 2.81,
-              "lowest": 1.35,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 2.37,
-              "lowest": 1.99,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 1.49,
-              "lowest": 1.49,
-              "hasOffer": false
-            },
-            "dirk": {
-              "regular": 2.02,
-              "lowest": 1.19,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 1.5,
-              "lowest": 1.5,
-              "hasOffer": false
-            },
-            "dekamarkt": {
-              "regular": 1.99,
-              "lowest": 1.35,
-              "hasOffer": true
-            },
-            "vomar": {
-              "regular": 1.98,
-              "lowest": 1.59,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 0.99,
-              "lowest": 0.99,
-              "hasOffer": false
-            },
-            "spar": {
-              "regular": 0.99,
-              "lowest": 0.99,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "melk",
-          "category": "zuivel",
-          "unit": "liter",
-          "lijssieUrl": "https://www.lijssie.nl/blog/halfvolle-melk",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "karnemelk",
-          "category": "zuivel",
-          "unit": "liter",
-          "lijssieUrl": "https://www.lijssie.nl/blog/karnemelk",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "yoghurt",
-          "category": "zuivel",
-          "unit": "liter",
-          "lijssieUrl": "https://www.lijssie.nl/blog/griekse-yoghurt-1l",
-          "prices": {
-            "albert-heijn": {
-              "regular": 1.41,
-              "lowest": 0.69,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 1.49,
-              "lowest": 1.29,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 2.07,
-              "lowest": 1.19,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 4.06,
-              "lowest": 1.59,
-              "hasOffer": true
-            },
-            "dirk": {
-              "regular": 3.42,
-              "lowest": 1.19,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 1.96,
-              "lowest": 1.29,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 3.93,
-              "lowest": 1.29,
-              "hasOffer": true
-            },
-            "vomar": {
-              "regular": 2.09,
-              "lowest": 1.99,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 2.54,
-              "lowest": 1.18,
-              "hasOffer": true
-            },
-            "spar": {
-              "regular": 1.41,
-              "lowest": 1.41,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "kwark",
-          "category": "zuivel",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/magere-kwark",
-          "prices": {
-            "albert-heijn": {
-              "regular": 1.8,
-              "lowest": 0.99,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 1.63,
-              "lowest": 1.08,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 1.73,
-              "lowest": 1.09,
-              "hasOffer": true
-            },
-            "dirk": {
-              "regular": 1.76,
-              "lowest": 0.79,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 1.82,
-              "lowest": 1.49,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 1.65,
-              "lowest": 0.98,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 1.49,
-              "lowest": 0.99,
-              "hasOffer": true
-            },
-            "spar": {
-              "regular": 1.49,
-              "lowest": 1.49,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "boter",
-          "category": "zuivel",
-          "unit": "250g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/roomboter",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "kaas",
-          "category": "zuivel",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/kaas",
-          "prices": {
-            "albert-heijn": {
-              "regular": 2.37,
-              "lowest": 0.39,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 2.64,
-              "lowest": 0.5,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 2.25,
-              "lowest": 0.59,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 2.6,
-              "lowest": 0.39,
-              "hasOffer": true
-            },
-            "dirk": {
-              "regular": 2.03,
-              "lowest": 0.38,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 2.47,
-              "lowest": 0.47,
-              "hasOffer": true
-            },
-            "vomar": {
-              "regular": 2.36,
-              "lowest": 0.98,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 2.7,
-              "lowest": 0.47,
-              "hasOffer": true
-            },
-            "spar": {
-              "regular": 2.03,
-              "lowest": 2.03,
-              "hasOffer": false
-            },
-            "poiesz": {
-              "regular": 2.79,
-              "lowest": 2.79,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "parmezaan",
-          "category": "zuivel",
-          "unit": "80g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/parmezaanse-kaas",
-          "prices": {
-            "albert-heijn": {
-              "regular": 3.15,
-              "lowest": 1.99,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 3.58,
-              "lowest": 0.99,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 2.43,
-              "lowest": 1.89,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 4.13,
-              "lowest": 3.29,
-              "hasOffer": true
-            },
-            "dirk": {
-              "regular": 2.03,
-              "lowest": 0.89,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 1.93,
-              "lowest": 0.59,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 2.15,
-              "lowest": 1.05,
-              "hasOffer": true
-            },
-            "vomar": {
-              "regular": 2.53,
-              "lowest": 1.99,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 2.83,
-              "lowest": 0.95,
-              "hasOffer": true
-            },
-            "spar": {
-              "regular": 1.93,
-              "lowest": 1.93,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "eieren",
-          "category": "zuivel",
-          "unit": "10 stuks",
-          "lijssieUrl": "https://www.lijssie.nl/blog/eieren-10-stuks",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "slagroom",
-          "category": "zuivel",
-          "unit": "250ml",
-          "lijssieUrl": "https://www.lijssie.nl/blog/slagroom",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "wit brood",
-          "category": "brood",
-          "unit": "heel",
-          "lijssieUrl": "https://www.lijssie.nl/blog/wit-brood",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "volkoren brood",
-          "category": "brood",
-          "unit": "heel",
-          "lijssieUrl": "https://www.lijssie.nl/blog/volkoren-brood",
-          "prices": {
-            "aldi": {
-              "regular": 1.6,
-              "lowest": 0.49,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 1.59,
-              "lowest": 0.39,
-              "hasOffer": true
-            },
-            "dirk": {
-              "regular": 1.53,
-              "lowest": 0.85,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 1.63,
-              "lowest": 0.75,
-              "hasOffer": true
-            },
-            "dekamarkt": {
-              "regular": 1.65,
-              "lowest": 0.59,
-              "hasOffer": true
-            },
-            "hoogvliet": {
-              "regular": 1.58,
-              "lowest": 0.99,
-              "hasOffer": true
-            },
-            "spar": {
-              "regular": 1.53,
-              "lowest": 1.53,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "croissants",
-          "category": "brood",
-          "unit": "4 stuks",
-          "lijssieUrl": "https://www.lijssie.nl/blog/croissants",
-          "prices": {
-            "albert-heijn": {
-              "regular": 1.51,
-              "lowest": 1.19,
-              "hasOffer": true
-            },
-            "jumbo": {
-              "regular": 2.68,
-              "lowest": 1.18,
-              "hasOffer": true
-            },
-            "aldi": {
-              "regular": 1.22,
-              "lowest": 0.45,
-              "hasOffer": true
-            },
-            "plus": {
-              "regular": 1.09,
-              "lowest": 1.09,
-              "hasOffer": false
-            },
-            "dirk": {
-              "regular": 1.85,
-              "lowest": 1.48,
-              "hasOffer": true
-            },
-            "coop": {
-              "regular": 1.85,
-              "lowest": 1.85,
-              "hasOffer": false
-            },
-            "dekamarkt": {
-              "regular": 2.24,
-              "lowest": 1.48,
-              "hasOffer": true
-            },
-            "vomar": {
-              "regular": 1.12,
-              "lowest": 1.09,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 1.05,
-              "lowest": 1.05,
-              "hasOffer": false
-            },
-            "spar": {
-              "regular": 1.05,
-              "lowest": 1.05,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "pasta",
-          "category": "pasta-rijst",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/pasta-500g",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "rijst",
-          "category": "pasta-rijst",
-          "unit": "kg",
-          "lijssieUrl": "https://www.lijssie.nl/blog/rijst",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "tomatenblokjes",
-          "category": "conserven",
-          "unit": "400g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/tomatenblokjes",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "olijfolie",
-          "category": "conserven",
-          "unit": "500ml",
-          "lijssieUrl": "https://www.lijssie.nl/blog/olijfolie-500ml",
-          "prices": {
-            "albert-heijn": {
-              "regular": 6.39,
-              "lowest": 6.39,
-              "hasOffer": false
-            },
-            "jumbo": {
-              "regular": 5.27,
-              "lowest": 5.27,
-              "hasOffer": false
-            },
-            "aldi": {
-              "regular": 6.49,
-              "lowest": 6.49,
-              "hasOffer": false
-            },
-            "dirk": {
-              "regular": 5.79,
-              "lowest": 5.79,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 5.25,
-              "lowest": 5.25,
-              "hasOffer": false
-            },
-            "spar": {
-              "regular": 5.25,
-              "lowest": 5.25,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "koffie",
-          "category": "dranken",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/koffie",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "thee",
-          "category": "dranken",
-          "unit": "20 zakjes",
-          "lijssieUrl": "https://www.lijssie.nl/blog/thee",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "sinaasappelsap",
-          "category": "dranken",
-          "unit": "liter",
-          "lijssieUrl": "https://www.lijssie.nl/blog/sinaasappelsap",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "pindakaas",
-          "category": "overig",
-          "unit": "350g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/pindakaas",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "hagelslag",
-          "category": "overig",
-          "unit": "400g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/hagelslag",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "jam",
-          "category": "overig",
-          "unit": "450g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/jam",
-          "prices": {
-            "coop": {
-              "regular": 0.75,
-              "lowest": 0.75,
-              "hasOffer": false
-            },
-            "vomar": {
-              "regular": 0.79,
-              "lowest": 0.79,
-              "hasOffer": false
-            },
-            "hoogvliet": {
-              "regular": 0.64,
-              "lowest": 0.64,
-              "hasOffer": false
-            }
-          },
-          "cheapestStore": null,
-          "cheapestPrice": null
-        }
-      ]
-    },
     {
       "date": "2026-02-18",
       "prices": [
@@ -17059,6 +15639,1426 @@
     },
     {
       "date": "2026-02-28",
+      "prices": [
+        {
+          "ingredientName": "gehakt",
+          "category": "vlees",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/gehakt-500g",
+          "prices": {
+            "albert-heijn": {
+              "regular": 4.17,
+              "lowest": 2.49,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 4.63,
+              "lowest": 3.49,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 4.5,
+              "lowest": 2.2,
+              "hasOffer": true
+            },
+            "dirk": {
+              "regular": 4.3,
+              "lowest": 0.42,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 4.36,
+              "lowest": 1.69,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 3.77,
+              "lowest": 0.49,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 3.9,
+              "lowest": 2.35,
+              "hasOffer": true
+            },
+            "spar": {
+              "regular": 3.77,
+              "lowest": 3.77,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "kipfilet",
+          "category": "vlees",
+          "unit": "300g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/kipfilet-300-gram",
+          "prices": {
+            "albert-heijn": {
+              "regular": 3.66,
+              "lowest": 2.69,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 4.42,
+              "lowest": 3.85,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 4.52,
+              "lowest": 4.45,
+              "hasOffer": false
+            },
+            "dirk": {
+              "regular": 3.11,
+              "lowest": 2.19,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 5.29,
+              "lowest": 2.69,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 2.75,
+              "lowest": 2.55,
+              "hasOffer": true
+            },
+            "vomar": {
+              "regular": 3.81,
+              "lowest": 3.15,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 2.36,
+              "lowest": 2.36,
+              "hasOffer": false
+            },
+            "spar": {
+              "regular": 2.36,
+              "lowest": 2.36,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "kippenpoot",
+          "category": "vlees",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/kippenpoot-500g",
+          "prices": {
+            "albert-heijn": {
+              "regular": 3.65,
+              "lowest": 3.65,
+              "hasOffer": false
+            },
+            "jumbo": {
+              "regular": 4.22,
+              "lowest": 4.22,
+              "hasOffer": false
+            },
+            "dirk": {
+              "regular": 4.19,
+              "lowest": 4.19,
+              "hasOffer": false
+            },
+            "dekamarkt": {
+              "regular": 3.48,
+              "lowest": 3.48,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 3.1,
+              "lowest": 3.1,
+              "hasOffer": false
+            },
+            "spar": {
+              "regular": 3.1,
+              "lowest": 3.1,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "zalm",
+          "category": "vlees",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/zalm-filet",
+          "prices": {
+            "plus": {
+              "regular": 3.79,
+              "lowest": 3.79,
+              "hasOffer": false
+            },
+            "dirk": {
+              "regular": 3.99,
+              "lowest": 3.99,
+              "hasOffer": false
+            },
+            "coop": {
+              "regular": 4.29,
+              "lowest": 4.29,
+              "hasOffer": false
+            },
+            "dekamarkt": {
+              "regular": 4.14,
+              "lowest": 4.14,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 3.99,
+              "lowest": 3.99,
+              "hasOffer": false
+            },
+            "spar": {
+              "regular": 3.79,
+              "lowest": 3.79,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "spekblokjes",
+          "category": "vlees",
+          "unit": "150g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/spekblokjes",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "ham",
+          "category": "vlees",
+          "unit": "100g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/ham-gesneden",
+          "prices": {
+            "albert-heijn": {
+              "regular": 2.54,
+              "lowest": 2.54,
+              "hasOffer": false
+            },
+            "jumbo": {
+              "regular": 5.24,
+              "lowest": 5.24,
+              "hasOffer": false
+            },
+            "spar": {
+              "regular": 2.54,
+              "lowest": 2.54,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "salami",
+          "category": "vlees",
+          "unit": "80g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/salami",
+          "prices": {
+            "albert-heijn": {
+              "regular": 2.47,
+              "lowest": 1.49,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 2.34,
+              "lowest": 1.97,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 2.32,
+              "lowest": 1.69,
+              "hasOffer": true
+            },
+            "dirk": {
+              "regular": 2.59,
+              "lowest": 1.25,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 2.89,
+              "lowest": 1.69,
+              "hasOffer": true
+            },
+            "vomar": {
+              "regular": 2.49,
+              "lowest": 1.98,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 2.57,
+              "lowest": 1.79,
+              "hasOffer": true
+            },
+            "spar": {
+              "regular": 2.32,
+              "lowest": 2.32,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "paprika",
+          "category": "groenten",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/puntpaprika",
+          "prices": {
+            "albert-heijn": {
+              "regular": 2.41,
+              "lowest": 1.69,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 2.84,
+              "lowest": 1.79,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 1.49,
+              "lowest": 1.49,
+              "hasOffer": false
+            },
+            "plus": {
+              "regular": 3.39,
+              "lowest": 3.39,
+              "hasOffer": false
+            },
+            "dirk": {
+              "regular": 1.92,
+              "lowest": 0.7,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 1.84,
+              "lowest": 1.69,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 2.84,
+              "lowest": 2.49,
+              "hasOffer": true
+            },
+            "vomar": {
+              "regular": 2.27,
+              "lowest": 1.65,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 1.69,
+              "lowest": 1.69,
+              "hasOffer": false
+            },
+            "spar": {
+              "regular": 1.49,
+              "lowest": 1.49,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "tomaten",
+          "category": "groenten",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/tomaten",
+          "prices": {
+            "albert-heijn": {
+              "regular": 1.25,
+              "lowest": 0.49,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 1.64,
+              "lowest": 0.59,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 1.02,
+              "lowest": 0.35,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 1.23,
+              "lowest": 0.49,
+              "hasOffer": true
+            },
+            "dirk": {
+              "regular": 1.21,
+              "lowest": 0.3,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 1.64,
+              "lowest": 0.59,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 1.67,
+              "lowest": 0.35,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 1.52,
+              "lowest": 0.3,
+              "hasOffer": true
+            },
+            "spar": {
+              "regular": 1.02,
+              "lowest": 1.02,
+              "hasOffer": false
+            },
+            "poiesz": {
+              "regular": 1.08,
+              "lowest": 0.9,
+              "hasOffer": true
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "komkommer",
+          "category": "groenten",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/komkommer",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "sla",
+          "category": "groenten",
+          "unit": "krop",
+          "lijssieUrl": "https://www.lijssie.nl/blog/ijsbergsla",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "champignons",
+          "category": "groenten",
+          "unit": "250g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/champignons",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "uien",
+          "category": "groenten",
+          "unit": "kg",
+          "lijssieUrl": "https://www.lijssie.nl/blog/uien",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "aardappelen",
+          "category": "groenten",
+          "unit": "kg",
+          "lijssieUrl": "https://www.lijssie.nl/blog/aardappelen",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "wortelen",
+          "category": "groenten",
+          "unit": "kg",
+          "lijssieUrl": "https://www.lijssie.nl/blog/wortelen",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "broccoli",
+          "category": "groenten",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/broccoli",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "spinazie",
+          "category": "groenten",
+          "unit": "300g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/spinazie",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "avocado",
+          "category": "groenten",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/avocado-eetrijp",
+          "prices": {
+            "albert-heijn": {
+              "regular": 2.89,
+              "lowest": 1.99,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 2.81,
+              "lowest": 1.35,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 2.37,
+              "lowest": 1.99,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 1.49,
+              "lowest": 1.49,
+              "hasOffer": false
+            },
+            "dirk": {
+              "regular": 2.02,
+              "lowest": 1.19,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 1.5,
+              "lowest": 1.5,
+              "hasOffer": false
+            },
+            "dekamarkt": {
+              "regular": 1.99,
+              "lowest": 1.35,
+              "hasOffer": true
+            },
+            "vomar": {
+              "regular": 1.98,
+              "lowest": 1.59,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 0.99,
+              "lowest": 0.99,
+              "hasOffer": false
+            },
+            "spar": {
+              "regular": 0.99,
+              "lowest": 0.99,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "melk",
+          "category": "zuivel",
+          "unit": "liter",
+          "lijssieUrl": "https://www.lijssie.nl/blog/halfvolle-melk",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "karnemelk",
+          "category": "zuivel",
+          "unit": "liter",
+          "lijssieUrl": "https://www.lijssie.nl/blog/karnemelk",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "yoghurt",
+          "category": "zuivel",
+          "unit": "liter",
+          "lijssieUrl": "https://www.lijssie.nl/blog/griekse-yoghurt-1l",
+          "prices": {
+            "albert-heijn": {
+              "regular": 1.41,
+              "lowest": 0.69,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 1.49,
+              "lowest": 1.29,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 2.07,
+              "lowest": 1.19,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 4.06,
+              "lowest": 1.59,
+              "hasOffer": true
+            },
+            "dirk": {
+              "regular": 3.42,
+              "lowest": 1.19,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 1.96,
+              "lowest": 1.29,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 3.93,
+              "lowest": 1.29,
+              "hasOffer": true
+            },
+            "vomar": {
+              "regular": 2.09,
+              "lowest": 1.99,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 2.54,
+              "lowest": 1.18,
+              "hasOffer": true
+            },
+            "spar": {
+              "regular": 1.41,
+              "lowest": 1.41,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "kwark",
+          "category": "zuivel",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/magere-kwark",
+          "prices": {
+            "albert-heijn": {
+              "regular": 1.8,
+              "lowest": 0.99,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 1.63,
+              "lowest": 1.08,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 1.73,
+              "lowest": 1.09,
+              "hasOffer": true
+            },
+            "dirk": {
+              "regular": 1.76,
+              "lowest": 0.79,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 1.82,
+              "lowest": 1.49,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 1.65,
+              "lowest": 0.98,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 1.49,
+              "lowest": 0.99,
+              "hasOffer": true
+            },
+            "spar": {
+              "regular": 1.49,
+              "lowest": 1.49,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "boter",
+          "category": "zuivel",
+          "unit": "250g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/roomboter",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "kaas",
+          "category": "zuivel",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/kaas",
+          "prices": {
+            "albert-heijn": {
+              "regular": 2.37,
+              "lowest": 0.39,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 2.64,
+              "lowest": 0.5,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 2.25,
+              "lowest": 0.59,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 2.6,
+              "lowest": 0.39,
+              "hasOffer": true
+            },
+            "dirk": {
+              "regular": 2.03,
+              "lowest": 0.38,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 2.47,
+              "lowest": 0.47,
+              "hasOffer": true
+            },
+            "vomar": {
+              "regular": 2.36,
+              "lowest": 0.98,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 2.7,
+              "lowest": 0.47,
+              "hasOffer": true
+            },
+            "spar": {
+              "regular": 2.03,
+              "lowest": 2.03,
+              "hasOffer": false
+            },
+            "poiesz": {
+              "regular": 2.79,
+              "lowest": 2.79,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "parmezaan",
+          "category": "zuivel",
+          "unit": "80g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/parmezaanse-kaas",
+          "prices": {
+            "albert-heijn": {
+              "regular": 3.15,
+              "lowest": 1.99,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 3.58,
+              "lowest": 0.99,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 2.43,
+              "lowest": 1.89,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 4.13,
+              "lowest": 3.29,
+              "hasOffer": true
+            },
+            "dirk": {
+              "regular": 2.03,
+              "lowest": 0.89,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 1.93,
+              "lowest": 0.59,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 2.15,
+              "lowest": 1.05,
+              "hasOffer": true
+            },
+            "vomar": {
+              "regular": 2.53,
+              "lowest": 1.99,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 2.83,
+              "lowest": 0.95,
+              "hasOffer": true
+            },
+            "spar": {
+              "regular": 1.93,
+              "lowest": 1.93,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "eieren",
+          "category": "zuivel",
+          "unit": "10 stuks",
+          "lijssieUrl": "https://www.lijssie.nl/blog/eieren-10-stuks",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "slagroom",
+          "category": "zuivel",
+          "unit": "250ml",
+          "lijssieUrl": "https://www.lijssie.nl/blog/slagroom",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "wit brood",
+          "category": "brood",
+          "unit": "heel",
+          "lijssieUrl": "https://www.lijssie.nl/blog/wit-brood",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "volkoren brood",
+          "category": "brood",
+          "unit": "heel",
+          "lijssieUrl": "https://www.lijssie.nl/blog/volkoren-brood",
+          "prices": {
+            "aldi": {
+              "regular": 1.6,
+              "lowest": 0.49,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 1.59,
+              "lowest": 0.39,
+              "hasOffer": true
+            },
+            "dirk": {
+              "regular": 1.53,
+              "lowest": 0.85,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 1.63,
+              "lowest": 0.75,
+              "hasOffer": true
+            },
+            "dekamarkt": {
+              "regular": 1.65,
+              "lowest": 0.59,
+              "hasOffer": true
+            },
+            "hoogvliet": {
+              "regular": 1.58,
+              "lowest": 0.99,
+              "hasOffer": true
+            },
+            "spar": {
+              "regular": 1.53,
+              "lowest": 1.53,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "croissants",
+          "category": "brood",
+          "unit": "4 stuks",
+          "lijssieUrl": "https://www.lijssie.nl/blog/croissants",
+          "prices": {
+            "albert-heijn": {
+              "regular": 1.51,
+              "lowest": 1.19,
+              "hasOffer": true
+            },
+            "jumbo": {
+              "regular": 2.68,
+              "lowest": 1.18,
+              "hasOffer": true
+            },
+            "aldi": {
+              "regular": 1.22,
+              "lowest": 0.45,
+              "hasOffer": true
+            },
+            "plus": {
+              "regular": 1.09,
+              "lowest": 1.09,
+              "hasOffer": false
+            },
+            "dirk": {
+              "regular": 1.85,
+              "lowest": 1.48,
+              "hasOffer": true
+            },
+            "coop": {
+              "regular": 1.85,
+              "lowest": 1.85,
+              "hasOffer": false
+            },
+            "dekamarkt": {
+              "regular": 2.24,
+              "lowest": 1.48,
+              "hasOffer": true
+            },
+            "vomar": {
+              "regular": 1.12,
+              "lowest": 1.09,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 1.05,
+              "lowest": 1.05,
+              "hasOffer": false
+            },
+            "spar": {
+              "regular": 1.05,
+              "lowest": 1.05,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "pasta",
+          "category": "pasta-rijst",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/pasta-500g",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "rijst",
+          "category": "pasta-rijst",
+          "unit": "kg",
+          "lijssieUrl": "https://www.lijssie.nl/blog/rijst",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "tomatenblokjes",
+          "category": "conserven",
+          "unit": "400g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/tomatenblokjes",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "olijfolie",
+          "category": "conserven",
+          "unit": "500ml",
+          "lijssieUrl": "https://www.lijssie.nl/blog/olijfolie-500ml",
+          "prices": {
+            "albert-heijn": {
+              "regular": 6.39,
+              "lowest": 6.39,
+              "hasOffer": false
+            },
+            "jumbo": {
+              "regular": 5.27,
+              "lowest": 5.27,
+              "hasOffer": false
+            },
+            "aldi": {
+              "regular": 6.49,
+              "lowest": 6.49,
+              "hasOffer": false
+            },
+            "dirk": {
+              "regular": 5.79,
+              "lowest": 5.79,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 5.25,
+              "lowest": 5.25,
+              "hasOffer": false
+            },
+            "spar": {
+              "regular": 5.25,
+              "lowest": 5.25,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "koffie",
+          "category": "dranken",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/koffie",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "thee",
+          "category": "dranken",
+          "unit": "20 zakjes",
+          "lijssieUrl": "https://www.lijssie.nl/blog/thee",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "sinaasappelsap",
+          "category": "dranken",
+          "unit": "liter",
+          "lijssieUrl": "https://www.lijssie.nl/blog/sinaasappelsap",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "pindakaas",
+          "category": "overig",
+          "unit": "350g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/pindakaas",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "hagelslag",
+          "category": "overig",
+          "unit": "400g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/hagelslag",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "jam",
+          "category": "overig",
+          "unit": "450g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/jam",
+          "prices": {
+            "coop": {
+              "regular": 0.75,
+              "lowest": 0.75,
+              "hasOffer": false
+            },
+            "vomar": {
+              "regular": 0.79,
+              "lowest": 0.79,
+              "hasOffer": false
+            },
+            "hoogvliet": {
+              "regular": 0.64,
+              "lowest": 0.64,
+              "hasOffer": false
+            }
+          },
+          "cheapestStore": null,
+          "cheapestPrice": null
+        }
+      ]
+    },
+    {
+      "date": "2026-03-01",
       "prices": [
         {
           "ingredientName": "gehakt",
