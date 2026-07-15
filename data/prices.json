@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T07:54:31.764Z",
+  "lastUpdated": "2026-07-15T07:58:14.666Z",
   "source": "lijssie.nl",
   "description": "Prijzen inclusief aanbiedingen van alle Nederlandse supermarkten",
   "totalIngredients": 40,
@@ -382,371 +382,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-07-03",
-      "prices": [
-        {
-          "ingredientName": "gehakt",
-          "category": "vlees",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/gehakt-500g",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "kipfilet",
-          "category": "vlees",
-          "unit": "300g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/kipfilet-300-gram",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "kippenpoot",
-          "category": "vlees",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/kippenpoot-500g",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "zalm",
-          "category": "vlees",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/zalm-filet",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "spekblokjes",
-          "category": "vlees",
-          "unit": "150g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/spekblokjes",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "ham",
-          "category": "vlees",
-          "unit": "100g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/ham-gesneden",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "salami",
-          "category": "vlees",
-          "unit": "80g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/salami",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "paprika",
-          "category": "groenten",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/puntpaprika",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "tomaten",
-          "category": "groenten",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/tomaten",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "komkommer",
-          "category": "groenten",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/komkommer",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "sla",
-          "category": "groenten",
-          "unit": "krop",
-          "lijssieUrl": "https://www.lijssie.nl/blog/ijsbergsla",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "champignons",
-          "category": "groenten",
-          "unit": "250g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/champignons",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "uien",
-          "category": "groenten",
-          "unit": "kg",
-          "lijssieUrl": "https://www.lijssie.nl/blog/uien",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "aardappelen",
-          "category": "groenten",
-          "unit": "kg",
-          "lijssieUrl": "https://www.lijssie.nl/blog/aardappelen",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "wortelen",
-          "category": "groenten",
-          "unit": "kg",
-          "lijssieUrl": "https://www.lijssie.nl/blog/wortelen",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "broccoli",
-          "category": "groenten",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/broccoli",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "spinazie",
-          "category": "groenten",
-          "unit": "300g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/spinazie",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "avocado",
-          "category": "groenten",
-          "unit": "stuk",
-          "lijssieUrl": "https://www.lijssie.nl/blog/avocado-eetrijp",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "melk",
-          "category": "zuivel",
-          "unit": "liter",
-          "lijssieUrl": "https://www.lijssie.nl/blog/halfvolle-melk",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "karnemelk",
-          "category": "zuivel",
-          "unit": "liter",
-          "lijssieUrl": "https://www.lijssie.nl/blog/karnemelk",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "yoghurt",
-          "category": "zuivel",
-          "unit": "liter",
-          "lijssieUrl": "https://www.lijssie.nl/blog/griekse-yoghurt-1l",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "kwark",
-          "category": "zuivel",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/magere-kwark",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "boter",
-          "category": "zuivel",
-          "unit": "250g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/roomboter",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "kaas",
-          "category": "zuivel",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/kaas",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "parmezaan",
-          "category": "zuivel",
-          "unit": "80g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/parmezaanse-kaas",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "eieren",
-          "category": "zuivel",
-          "unit": "10 stuks",
-          "lijssieUrl": "https://www.lijssie.nl/blog/eieren-10-stuks",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "slagroom",
-          "category": "zuivel",
-          "unit": "250ml",
-          "lijssieUrl": "https://www.lijssie.nl/blog/slagroom",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "wit brood",
-          "category": "brood",
-          "unit": "heel",
-          "lijssieUrl": "https://www.lijssie.nl/blog/wit-brood",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "volkoren brood",
-          "category": "brood",
-          "unit": "heel",
-          "lijssieUrl": "https://www.lijssie.nl/blog/volkoren-brood",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "croissants",
-          "category": "brood",
-          "unit": "4 stuks",
-          "lijssieUrl": "https://www.lijssie.nl/blog/croissants",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "pasta",
-          "category": "pasta-rijst",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/pasta-500g",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "rijst",
-          "category": "pasta-rijst",
-          "unit": "kg",
-          "lijssieUrl": "https://www.lijssie.nl/blog/rijst",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "tomatenblokjes",
-          "category": "conserven",
-          "unit": "400g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/tomatenblokjes",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "olijfolie",
-          "category": "conserven",
-          "unit": "500ml",
-          "lijssieUrl": "https://www.lijssie.nl/blog/olijfolie-500ml",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "koffie",
-          "category": "dranken",
-          "unit": "500g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/koffie",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "thee",
-          "category": "dranken",
-          "unit": "20 zakjes",
-          "lijssieUrl": "https://www.lijssie.nl/blog/thee",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "sinaasappelsap",
-          "category": "dranken",
-          "unit": "liter",
-          "lijssieUrl": "https://www.lijssie.nl/blog/sinaasappelsap",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "pindakaas",
-          "category": "overig",
-          "unit": "350g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/pindakaas",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "hagelslag",
-          "category": "overig",
-          "unit": "400g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/hagelslag",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        },
-        {
-          "ingredientName": "jam",
-          "category": "overig",
-          "unit": "450g",
-          "lijssieUrl": "https://www.lijssie.nl/blog/jam",
-          "prices": {},
-          "cheapestStore": null,
-          "cheapestPrice": null
-        }
-      ]
-    },
     {
       "date": "2026-07-04",
       "prices": [
@@ -4399,6 +4034,371 @@
     },
     {
       "date": "2026-07-14",
+      "prices": [
+        {
+          "ingredientName": "gehakt",
+          "category": "vlees",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/gehakt-500g",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "kipfilet",
+          "category": "vlees",
+          "unit": "300g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/kipfilet-300-gram",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "kippenpoot",
+          "category": "vlees",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/kippenpoot-500g",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "zalm",
+          "category": "vlees",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/zalm-filet",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "spekblokjes",
+          "category": "vlees",
+          "unit": "150g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/spekblokjes",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "ham",
+          "category": "vlees",
+          "unit": "100g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/ham-gesneden",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "salami",
+          "category": "vlees",
+          "unit": "80g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/salami",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "paprika",
+          "category": "groenten",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/puntpaprika",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "tomaten",
+          "category": "groenten",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/tomaten",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "komkommer",
+          "category": "groenten",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/komkommer",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "sla",
+          "category": "groenten",
+          "unit": "krop",
+          "lijssieUrl": "https://www.lijssie.nl/blog/ijsbergsla",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "champignons",
+          "category": "groenten",
+          "unit": "250g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/champignons",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "uien",
+          "category": "groenten",
+          "unit": "kg",
+          "lijssieUrl": "https://www.lijssie.nl/blog/uien",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "aardappelen",
+          "category": "groenten",
+          "unit": "kg",
+          "lijssieUrl": "https://www.lijssie.nl/blog/aardappelen",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "wortelen",
+          "category": "groenten",
+          "unit": "kg",
+          "lijssieUrl": "https://www.lijssie.nl/blog/wortelen",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "broccoli",
+          "category": "groenten",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/broccoli",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "spinazie",
+          "category": "groenten",
+          "unit": "300g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/spinazie",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "avocado",
+          "category": "groenten",
+          "unit": "stuk",
+          "lijssieUrl": "https://www.lijssie.nl/blog/avocado-eetrijp",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "melk",
+          "category": "zuivel",
+          "unit": "liter",
+          "lijssieUrl": "https://www.lijssie.nl/blog/halfvolle-melk",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "karnemelk",
+          "category": "zuivel",
+          "unit": "liter",
+          "lijssieUrl": "https://www.lijssie.nl/blog/karnemelk",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "yoghurt",
+          "category": "zuivel",
+          "unit": "liter",
+          "lijssieUrl": "https://www.lijssie.nl/blog/griekse-yoghurt-1l",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "kwark",
+          "category": "zuivel",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/magere-kwark",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "boter",
+          "category": "zuivel",
+          "unit": "250g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/roomboter",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "kaas",
+          "category": "zuivel",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/kaas",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "parmezaan",
+          "category": "zuivel",
+          "unit": "80g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/parmezaanse-kaas",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "eieren",
+          "category": "zuivel",
+          "unit": "10 stuks",
+          "lijssieUrl": "https://www.lijssie.nl/blog/eieren-10-stuks",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "slagroom",
+          "category": "zuivel",
+          "unit": "250ml",
+          "lijssieUrl": "https://www.lijssie.nl/blog/slagroom",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "wit brood",
+          "category": "brood",
+          "unit": "heel",
+          "lijssieUrl": "https://www.lijssie.nl/blog/wit-brood",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "volkoren brood",
+          "category": "brood",
+          "unit": "heel",
+          "lijssieUrl": "https://www.lijssie.nl/blog/volkoren-brood",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "croissants",
+          "category": "brood",
+          "unit": "4 stuks",
+          "lijssieUrl": "https://www.lijssie.nl/blog/croissants",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "pasta",
+          "category": "pasta-rijst",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/pasta-500g",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "rijst",
+          "category": "pasta-rijst",
+          "unit": "kg",
+          "lijssieUrl": "https://www.lijssie.nl/blog/rijst",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "tomatenblokjes",
+          "category": "conserven",
+          "unit": "400g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/tomatenblokjes",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "olijfolie",
+          "category": "conserven",
+          "unit": "500ml",
+          "lijssieUrl": "https://www.lijssie.nl/blog/olijfolie-500ml",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "koffie",
+          "category": "dranken",
+          "unit": "500g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/koffie",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "thee",
+          "category": "dranken",
+          "unit": "20 zakjes",
+          "lijssieUrl": "https://www.lijssie.nl/blog/thee",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "sinaasappelsap",
+          "category": "dranken",
+          "unit": "liter",
+          "lijssieUrl": "https://www.lijssie.nl/blog/sinaasappelsap",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "pindakaas",
+          "category": "overig",
+          "unit": "350g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/pindakaas",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "hagelslag",
+          "category": "overig",
+          "unit": "400g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/hagelslag",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        },
+        {
+          "ingredientName": "jam",
+          "category": "overig",
+          "unit": "450g",
+          "lijssieUrl": "https://www.lijssie.nl/blog/jam",
+          "prices": {},
+          "cheapestStore": null,
+          "cheapestPrice": null
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
       "prices": [
         {
           "ingredientName": "gehakt",
